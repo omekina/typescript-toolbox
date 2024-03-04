@@ -2,6 +2,10 @@
   "name": "typescript-toolbox",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "build": "bun run index.ts",
+    "test": "bun run test.ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },

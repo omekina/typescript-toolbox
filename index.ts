@@ -9,7 +9,6 @@ import { exit } from "process";
  */
 const SCRIPTS: string[] = [
     "index.ts",
-    "tests.ts",
 ];
 
 

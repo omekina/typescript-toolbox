@@ -1,4 +1,11 @@
+// Typescript Toolbox
+// @author Ondřej Mekina
+
+
 // ---------- ERROR HANDLERS ----------
+
+
+import { sleep } from "bun";
 
 
 // Option
@@ -18,7 +25,7 @@ export { result_to_option, option_to_result, null_to_result, null_to_option } fr
 // ---------- OBJECT HELPERS ----------
 
 
-// Copy
+// Clone
 export { default as Clone } from "./traits_generic/Clone";
 
 
@@ -27,3 +34,6 @@ export { default as Clone } from "./traits_generic/Clone";
 
 // Mutex
 export { default as Mutex } from "./sync/Mutex";
+
+// Sleep
+export { default as sleep } from "./sync/sleep";
