@@ -37,3 +37,12 @@ export { default as Mutex } from "./sync/Mutex";
 
 // Sleep
 export { default as sleep } from "./sync/sleep";
+
+
+// ---------- EVENTS ----------
+
+// Signal
+export { default as Signal } from "./events/Signal";
+
+// Value signal
+export { default as ValueSignal } from "./events/ValueSignal";
