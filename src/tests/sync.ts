@@ -12,14 +12,14 @@ namespace TestSync {
         }, 50);
         await m.lock();
         m.unlock();
-        return assert_eq(m.value, 1);
+        return assert_eq(1, m.value);
     }
 
     export async function sleep_timeout(): Promise<boolean> {
         const start = new Date();
         await sleep(100);
         const diff = (new Date().getTime()) - start.getTime();
-        return assert_higher(diff, 99);
+        return assert_higher(99, diff);
     }
 }
 
