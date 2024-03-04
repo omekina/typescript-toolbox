@@ -5,9 +5,6 @@
 // ---------- ERROR HANDLERS ----------
 
 
-import { sleep } from "bun";
-
-
 // Option
 export { default as Option } from "./error_handlers/Option";
 export { OptionEnum } from "./error_handlers/Option";
@@ -40,6 +37,7 @@ export { default as sleep } from "./sync/sleep";
 
 
 // ---------- EVENTS ----------
+
 
 // Signal
 export { default as Signal } from "./events/Signal";
